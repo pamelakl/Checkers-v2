@@ -24,7 +24,7 @@ function newGame(){
     this.container = document.createElement('div');
     this.container.classList.add('container');
     document.body.appendChild(this.container);
-
+    //test
     this.printVisualBoard = () => {
         const boardObject = document.getElementById(`${this.numOfGame}`);
         for(let i=0; i<8; i++){
